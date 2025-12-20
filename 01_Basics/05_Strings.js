@@ -72,6 +72,12 @@ console.log(gameName.lastIndexOf('m'));    // 15
 console.log(gameName.repeat(2));          // 'dhirendra-hc-comdhirendra-hc-com'
 console.log(gameName.repeat(3));          // 'dhirendra-hc-comdhirendra-hc-comdhirendra-hc-com'
 console.log(gameName.concat('-official')); // 'dhirendra-hc-com-official'
+console.log(gameName.toLocaleLowerCase()); // 'dhirendra-hc-com'
+console.log(gameName.toLocaleUpperCase()); // 'DHIRENDRA-HC-COM'
+console.log(gameName.trimEnd());        // 'dhirendra-hc-com'
+console.log(gameName.trimStart());      // 'dhirendra-hc-com'
+console.log(gameName.endsWith('com'));    // true
+console.log(gameName.startsWith('dhir'));  // true
 
 
 console.log(gameName.substr(0, 4));      // 'dhir'
@@ -175,10 +181,10 @@ console.log(url.includes('dhirendra'))    // true
 console.log(url.startsWith('https'))    // true
 console.log(url.endsWith('.com/dhirendra%20jha'))  // true
 
+
 console.log(gameName.split('-'));           // [ 'dhirendra', 'hc', 'com' ]
 console.log(gameName.split(''));            // [ 'd', 'h', 'i', 'r', 'e', 'n', 'd', 'r', 'a', '-', 'h', 'c', '-', 'c', 'o', 'm' ]
 
 // More String Methods
-// 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#methods
 // https://www.w3schools.com/jsref/jsref_obj_string.asp
