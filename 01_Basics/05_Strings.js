@@ -124,7 +124,14 @@ console.log(gameName.lastIndexOf('c'));   // 13
 
 
 
-console.log(gameName.match(/h/g));       // [ 'h', 'h' ]   
+console.log(gameName.match(/h/g));       // [ 'h', 'h' ]  
+// Syntax kya hai?   -->   string.match(regexp)
+// ismai jo (regexp) ya kya hai?    ---> ya regular expression hai.
+//  Regular expression ek pattern hota hai jo string mai match karne ke liye use hota hai.
+//  yaha /h/g ek regular expression hai jo 'h' character ko match karta hai aur 'g' flag ka matlab hai global search.
+// Global Search ka matlab hai ki string mai jitne bhi 'h' characters hai un sabko match karo na ki sirf pehle wale ko.
+
+
 // match all occurrences of 'h' using global flag 'g' and the global flag 'g' is used to perform a global search (find all matches rather than stopping after the first match).
 // match method means to find matches based on regular expression using match() method its returns an array of matches or null if no match is found.
 // And more...
@@ -143,35 +150,33 @@ console.log(gameName.charAt(2));              // 'i'
 console.log(gameName.indexOf('t'));         // -1   (not found)
 
 
-console.log(gameName.indexOf('d', 2));   
+console.log(gameName.indexOf('d', 2));          // 3
 // Search from index 2    
 // // it means start searching from index 2 and returns the index of the first occurrence of 'd' after index 2. 
 // If not found, it returns -1.
 
 const newString = gameName.substring(0, 4)
-console.log(newString);
+console.log(newString);                 // 'dhir'
 
 const anotherString = gameName.slice(-8, 4)
-console.log(anotherString);
+console.log(anotherString);     // ''   
 
 const newStringOne = "   dhirendra    "
-console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne);              // '   dhirendra    '
+console.log(newStringOne.trim());       // 'dhirendra'
 
 const url = "https://dhirendra.com/dhirendra%20jha"
 
-console.log(url.replace('%20', '-'))
+console.log(url.replace('%20', '-'))        // 'https://dhirendra.com/dhirendra-jha'
 
 console.log(url.includes('sundar'))       // false
 console.log(url.includes('dhirendra'))    // true
 console.log(url.startsWith('https'))    // true
 console.log(url.endsWith('.com/dhirendra%20jha'))  // true
 
-
-console.log(gameName.split('-'));
-console.log(gameName.split(''));
+console.log(gameName.split('-'));           // [ 'dhirendra', 'hc', 'com' ]
+console.log(gameName.split(''));            // [ 'd', 'h', 'i', 'r', 'e', 'n', 'd', 'r', 'a', '-', 'h', 'c', '-', 'c', 'o', 'm' ]
 
 // More String Methods
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#methods
-
-
+// https://www.w3schools.com/jsref/jsref_obj_string.asp
