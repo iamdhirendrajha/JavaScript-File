@@ -12,7 +12,8 @@ console.log(typeof repoCount);
 
 // Example
 // Hello my name is dhirendra and my repo count is 50
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);   
+// Template string mai hum ${} ka use karke variables ya expressions ko embed kar sakte hain.
 
 // String Object 
 // created using String constructor 
@@ -178,5 +179,6 @@ console.log(gameName.split('-'));           // [ 'dhirendra', 'hc', 'com' ]
 console.log(gameName.split(''));            // [ 'd', 'h', 'i', 'r', 'e', 'n', 'd', 'r', 'a', '-', 'h', 'c', '-', 'c', 'o', 'm' ]
 
 // More String Methods
+// 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#methods
 // https://www.w3schools.com/jsref/jsref_obj_string.asp
