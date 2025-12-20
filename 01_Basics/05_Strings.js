@@ -14,13 +14,15 @@ console.log(typeof repoCount);
 // Hello my name is dhirendra and my repo count is 50
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
+// String Object 
+// created using String constructor 
 const gameName = new String('dhirendra-hc-com')
 
 // console.log(gameName.__proto__);  // Access to String prototype methods and properties and inheritance or prototype chain or linkage.
 
 console.log(gameName);
 console.log(typeof gameName);   // object
-console.log(gameName[0]);
+console.log(gameName[0]);       // d
 
 // String Methods   
 
@@ -37,12 +39,36 @@ console.log(gameName.charAt(0));             // 'd'
 console.log(gameName.indexOf('h'));          // 10
 console.log(gameName.substring(0, 4));       // 'dhir'
 console.log(gameName.slice(-3));             // 'com'
+
+
+// 👉 Agar start > end ho jaye,
+// 👉 toh slice() empty string return karta hai
+console.log(gameName.slice(-1,-4));        // ''  
+// it means it starts from the end of the string and goes backwards to index -4 but does not include the character at index -4. 
+// Explanation:
+// In the string 'dhirendra-hc-com':
+// - The character at index -1 is 'm' (the last character).
+// - The character at index -2 is 'o'.
+// - The character at index -3 is 'c'.
+// - The character at index -4 is '-'.
+// When you use slice(-1, -4), it starts at index -1 ('m') and goes backwards to index -4 ('-'), but does not include the character at index -4.
+// Since there are no characters between index -1 and -4 when slicing backwards, the result is an empty string ('').
+// In summary, slice(-1, -4) means to start from the last character and move backwards to the fourth last character,
+// but since the start index is greater than the end index in this case , 
+// So, it returns an empty string as there are no characters between index -1 and -4 when slicing backwards.
+
+
+
+console.log(gameName.replace('dhirendra', 'dhiru')); // 'dhiru-hc-com'
 console.log(gameName.replace('hc', 'HC'));     // 'dhirendra-HC-com'
 console.log(gameName.trim());                 // 'dhirendra-hc-com'
 console.log(gameName.startsWith('dhi'));      // true
 console.log(gameName.endsWith('com'));       // true
 
+console.log(gameName.lastIndexOf('m'));    // 15 
+
 // More String Methods  
+console.log(gameName.repeat(2));          // 'dhirendra-hc-comdhirendra-hc-com'
 console.log(gameName.repeat(3));          // 'dhirendra-hc-comdhirendra-hc-comdhirendra-hc-com'
 console.log(gameName.concat('-official')); // 'dhirendra-hc-com-official'
 
@@ -136,6 +162,15 @@ const url = "https://dhirendra.com/dhirendra%20jha"
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar'))       // false
+console.log(url.includes('dhirendra'))    // true
+console.log(url.startsWith('https'))    // true
+console.log(url.endsWith('.com/dhirendra%20jha'))  // true
+
 
 console.log(gameName.split('-'));
+console.log(gameName.split(''));
+
+// More String Methods
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#methods
+
