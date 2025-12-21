@@ -18,7 +18,7 @@ console.log(typeof github);  // object
 console.log(github[0]);      // i
 
 // String Methods 
-console.log(github.length);                  // 19
+console.log(github.length());                  // 19
 console.log(github.toString());              // 'i-am-dhirendra-jha'
 // toString() method returns a string representing the specified object.    
 // It is used to convert an object to a string.    
