@@ -81,6 +81,8 @@ console.log(gameName.startsWith('dhir'));  // true
 
 
 console.log(gameName.substr(0, 4));      // 'dhir'
+// or    console.log(gameName.substring(0, 4));      // 'dhir'
+
 // substr method returns a portion of the string, starting at the specified index and extending for a given number of characters.
 // it means it starts from index 0 and takes 4 characters from there.
 
