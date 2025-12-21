@@ -27,7 +27,7 @@ console.log(gameName[0]);       // d
 
 // String Methods   
 
-console.log(gameName.length);                    // 16
+console.log(gameName.length());                    // 16
 console.log(gameName.toString());                // 'dhirendra-hc-com'
 console.log(gameName.toLowerCase());             // 'dhirendra-hc-com'
 console.log(gameName.toUpperCase());             // 'DHIRENDRA-HC-COM'
