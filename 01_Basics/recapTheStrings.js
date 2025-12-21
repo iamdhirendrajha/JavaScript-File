@@ -165,6 +165,8 @@ console.log(github.concat('-official'));  // 'i-am-dhirendra-jha-official'
 // In summary, concat() is a method that combines multiple strings into one new string.
 
 console.log(github.substr(5, 5));     // 'dhire'
+// or    console.log(gameName.substring(0, 4));      // 'dhir'
+
 // substr() method returns a portion of the string, starting at the specified index and extending for a given number of characters.
 // In this case, calling github.substr(5, 5) starts from index 5 of the string 'i-am-dhirendra-jha' and takes 5 characters from there.
 // The characters in the string are indexed as follows:
