@@ -421,6 +421,7 @@ console.log(github.slice(-13));         // 'endra-jha'
 
 
 console.log(github.substr(5, 4));      // 'dhir'
+//  or    console.log(gameName.substring(5, 4));      // 'dhir'
 
 console.log(github.charCodeAt(2));    // 109
 console.log(github.codePointAt(2));   // 109
