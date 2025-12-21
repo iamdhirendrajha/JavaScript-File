@@ -375,7 +375,7 @@ console.log(github.toString()); // 'i-am-dhirendra-jha'
 // toString() method ek string representing the specified object return karta hai.
 // Iska use tab hota hai jab aapko object ko string me convert karna ho.
 
-console.log(github.length); // 19
+console.log(github.length()); // 19
 // length property string ke characters ki total count return karti hai.
 // Iska use tab hota hai jab aapko string ke length ko pata karna ho.
 
