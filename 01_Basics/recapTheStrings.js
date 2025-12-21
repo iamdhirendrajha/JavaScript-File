@@ -40,7 +40,7 @@ console.log(github.split("-"));         // [ 'i', 'am', 'dhirendra', 'jha' ]
 
 console.log(mygithub.trim());          // 'iamdhirendrajha'
 
-console.log(github.constructor);         // [Function: String] 
+console.log(github.constructor());         // [Function: String] 
 // it indicates that the constructor function used to create the object is the built-in String constructor function in JavaScript. it means that the object github is an instance of the String type, and it was created using the String constructor function.
 
 // constructor batata hai object kis se bana hai
