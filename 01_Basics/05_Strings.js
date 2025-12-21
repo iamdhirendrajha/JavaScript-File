@@ -34,7 +34,7 @@ console.log(gameName.toUpperCase());             // 'DHIRENDRA-HC-COM'
 console.log(gameName.includes('hc'));            // true
 console.log(gameName.includes('xyz'));           // false
 console.log(gameName.split('-'));                // [ 'dhirendra', 'hc', 'com' ]
-console.log(gameName.constructor);               // [Function: String]
+console.log(gameName.constructor());               // [Function: String]
 console.log(gameName.valueOf());                 // 'dhirendra-hc-com'
 console.log(gameName.charAt(0));             // 'd'
 console.log(gameName.indexOf('h'));          // 10
