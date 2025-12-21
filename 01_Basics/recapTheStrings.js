@@ -272,7 +272,7 @@ Koi invalid ya malformed sequences nahi hain
 
 */
 
-console.log(github.normalize);   // [Function: normalize]
+console.log(github.normalize());   // [Function: normalize]
 /* Normalize ka matlab kya hai?
 normalize ka matlab hai ki:
 String ko ek standard format me convert karna or Unicode representation ko standardize karna
