@@ -237,3 +237,6 @@ console.log(Math.floor(Math.random() * (max - min + 1)) + min); // random intege
 // isme pehle Math.random() se 0-1 ke beech ka random decimal number milta hai, fir usse (max - min + 1) se multiply karke 0-(max-min+1) ke beech ka number banate hain,
 // fir Math.floor() se usse nearest lower integer mai round karte hain, jisse 0-(max-min) ke beech ka integer milta hai,
 // aur finally min add karke usse min-max ke beech ka integer bana dete hain.
+// is tarah se hum kisi bhi range ke beech ka random integer generate kar sakte hain using Math.random() aur Math.floor() methods se .
+// example: random selections, games, simulations, etc.
+
