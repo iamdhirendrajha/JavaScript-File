@@ -38,3 +38,12 @@ const min = 10
 const max = 20
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);             // random integer between 10 and 20
+
+console.log(Math.sqrt(144));            // 12
+
+console.log(Math.pow(3, 4));              // 81
+console.log(3**4);                        // 81 
+// both are same 
+// Math.pow(base, exponent)
+// base**exponent
+
