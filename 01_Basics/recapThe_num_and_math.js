@@ -18,7 +18,20 @@ console.log(otherNumber.toPrecision(2));        // 1.2e+2
 console.log(otherNumber.toFixed(2));           // 123.90
 
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+console.log("In Hindi counting terms :",hundreds.toLocaleString('hi-IN'));       // 10,00,000
+console.log("In Indian counting terms :",hundreds.toLocaleString('en-IN'));        // 10,00,000
+console.log("In US counting terms :",hundreds.toLocaleString('en-US'));        // 1,000,000      
+console.log("In German counting terms :",hundreds.toLocaleString('de-DE'));       // 1.000.000
+console.log("In Arabic counting terms :",hundreds.toLocaleString('ar-EG'));       // ١٬٠٠٠٬٠٠٠
+console.log("In Chinese counting terms :",hundreds.toLocaleString('zh-Hans-CN-u-nu-hanidec'));       // 一,〇〇〇,〇〇〇
+console.log("In Japanese counting terms :",hundreds.toLocaleString('ja-JP-u-nu-hanidec'));       // 一,〇〇〇,〇〇〇
+console.log("In French counting terms :",hundreds.toLocaleString('fr-FR'));       // 1 000 000
+console.log("In Italian counting terms :",hundreds.toLocaleString('it-IT'));       // 1.000.000
+console.log("In Spanish counting terms :",hundreds.toLocaleString('es-ES'));       // 1.000.000
+console.log("In Russian counting terms :",hundreds.toLocaleString('ru-RU'));       // 1 000 000
+console.log("In Portuguese counting terms :",hundreds.toLocaleString('pt-PT'));       // 1 000 000
+console.log("In Dutch counting terms :",hundreds.toLocaleString('nl-NL'));       // 1.000.000
+console.log("In Korean counting terms :",hundreds.toLocaleString('ko-KR'));       // 1,000,000
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
@@ -47,3 +60,4 @@ console.log(3**4);                        // 81
 // Math.pow(base, exponent)
 // base**exponent
 
+console
