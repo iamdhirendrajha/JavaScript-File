@@ -25,6 +25,21 @@ console.log(myDate.toLocaleDateString());  // Localized date only , it means the
 
 console.log(myDate.toLocaleTimeString());  // Localized time only , it means the time format is adjusted according to the user's locale settings.
 
+
+// Note: Months are zero-indexed (0 = January, 11 = December)
+// Days of the week are also zero-indexed (0 = Sunday, 6 = Saturday)
+// So, be careful while using these methods.
+// Always remember to add 1 to month and day values if you want them in human-readable format. e.g., January is 0, so add 1 to get 1 for January.
+// Similarly, Sunday is 0, so add 1 to get 1 for Sunday.e.g., Sunday is 0, so add 1 to get 1 for Sunday. 
+// code example:
+// let month = myDate.getMonth() + 1; // Adding 1 to month
+// let day = myDate.getDate(); 
+// console.log(month);
+// console.log(day);
+// 
+
+
+// Getting date components
 console.log(myDate.getFullYear()); // Get year
 console.log(myDate.getMonth());    // Get month (0-11)
 console.log(myDate.getDate());     // Get day of month (1-31)
