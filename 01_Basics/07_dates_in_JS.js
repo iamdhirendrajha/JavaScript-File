@@ -26,7 +26,7 @@ console.log(myDate.toLocaleDateString());  // Localized date only , it means the
 console.log(myDate.toTimeString()); // Time portion only
 console.log(myDate.toLocaleTimeString());  // Localized time only , it means the time format is adjusted according to the user's locale settings.\
 
-console.log(myDate.toJSON());     // 
+console.log(myDate.toJSON());      
 
 
 // Note: Months are zero-indexed (0 = January, 11 = December)
@@ -39,9 +39,9 @@ console.log(myDate.toJSON());     //
 // let day = myDate.getDate(); 
 // console.log(month);
 // console.log(day);
-// 
 
-/*
+
+
 // Getting date components
 console.log(myDate.getFullYear()); // Get year
 console.log(myDate.getMonth());    // Get month (0-11)
@@ -52,7 +52,8 @@ console.log(myDate.getMinutes());   // Get minutes (0-59)
 console.log(myDate.getSeconds());   // Get seconds (0-59)
 console.log(myDate.getMilliseconds()); // Get milliseconds (0-999)  
 console.log(myDate.getTime());     // Get time in milliseconds since Jan 1, 1970
-*/
+console.log(myDate.getUTCDate());  // 
+
 
 // Setting date components
 
