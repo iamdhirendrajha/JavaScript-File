@@ -26,7 +26,8 @@ console.log(myDate.toLocaleDateString());  // Localized date only , it means the
 console.log(myDate.toTimeString()); // Time portion only
 console.log(myDate.toLocaleTimeString());  // Localized time only , it means the time format is adjusted according to the user's locale settings.\
 
-console.log(myDate.toJSON());      
+console.log(myDate.toJSON());    
+
 
 
 // Note: Months are zero-indexed (0 = January, 11 = December)
@@ -52,15 +53,18 @@ console.log(myDate.getMinutes());   // Get minutes (0-59)
 console.log(myDate.getSeconds());   // Get seconds (0-59)
 console.log(myDate.getMilliseconds()); // Get milliseconds (0-999)  
 console.log(myDate.getTime());     // Get time in milliseconds since Jan 1, 1970
-console.log(myDate.getUTCDate());  // 
+console.log(myDate.getUTCDate()); 
+ 
 
 
 // Setting date components
 
 
-// // Various ways to create date objects
-// let date1 = new Date('2023-06-15');
-// console.log(date1); // Specific date from string
+// Various ways to create date objects
+let date1 = new Date('2023-06-15');
+console.log(date1.toDateString()); // Specific date from string
 
-// let date2 = new Date(2023, 5, 15); // Month is 0-indexed (0 = January, 5 = June)
-// console.log(date2); // Specific date from components
+let date2 = new Date(2023, 5, 15); // Month is 0-indexed (0 = January, 5 = June)
+console.log(date2.toDateString()); // Specific date from components
+
+
