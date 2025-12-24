@@ -22,8 +22,20 @@ console.log(myDate.toLocaleString());  // Localized date and time , it means the
 
 console.log(myDate.toLocaleDateString());  // Localized date only , it means the date format is adjusted according to the user's locale settings.
 
+
 console.log(myDate.toLocaleTimeString());  // Localized time only , it means the time format is adjusted according to the user's locale settings.
 
+console.log(myDate.getFullYear()); // Get year
+console.log(myDate.getMonth());    // Get month (0-11)
+console.log(myDate.getDate());     // Get day of month (1-31)
+console.log(myDate.getDay());       // Get day of week (0-6) Sunday - Saturday
+console.log(myDate.getHours());    // Get hours (0-23)
+console.log(myDate.getMinutes());   // Get minutes (0-59)   
+console.log(myDate.getSeconds());   // Get seconds (0-59)
+console.log(myDate.getMilliseconds()); // Get milliseconds (0-999)  
+console.log(myDate.getTime());     // Get time in milliseconds since Jan 1, 1970
+
+// Setting date components
 
 
 // // Various ways to create date objects
