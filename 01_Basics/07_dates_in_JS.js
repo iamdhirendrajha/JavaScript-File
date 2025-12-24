@@ -17,7 +17,7 @@ console.log(myDate.toISOString());  // ISO format , ISO stand for International 
 
 console.log(myDate.toUTCString());  // UTC format , UTC stand for Universal Time Coordinated, its mean time standard that is the basis for civil time and time zones worldwide.
 
-   
+
 console.log(myDate.toLocaleString());  // Localized date and time , it means the date and time format is adjusted according to the user's locale settings.
 
 console.log(myDate.toLocaleDateString());  // Localized date only , it means the date format is adjusted according to the user's locale settings.
@@ -26,7 +26,7 @@ console.log(myDate.toLocaleDateString());  // Localized date only , it means the
 console.log(myDate.toTimeString()); // Time portion only
 console.log(myDate.toLocaleTimeString());  // Localized time only , it means the time format is adjusted according to the user's locale settings.\
 
-console.log(myDate.toJSON());    
+console.log(myDate.toJSON());
 
 
 
@@ -53,8 +53,8 @@ console.log(myDate.getMinutes());   // Get minutes (0-59)
 console.log(myDate.getSeconds());   // Get seconds (0-59)
 console.log(myDate.getMilliseconds()); // Get milliseconds (0-999)  
 console.log(myDate.getTime());     // Get time in milliseconds since Jan 1, 1970
-console.log(myDate.getUTCDate()); 
- 
+console.log(myDate.getUTCDate());
+
 
 
 // Setting date components
