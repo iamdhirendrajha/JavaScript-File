@@ -109,3 +109,18 @@ console.log("*****************TIME**********************");
 let myTimeStamp = Date.now()
 console.log(myTimeStamp);     // in mili-second
 console.log(typeof myTimeStamp);
+
+console.log(date4.getTime());
+console.log(date3.getTime());
+console.log(date2.getTime());
+console.log(date1.getTime());
+console.log(myDate.getTime());
+
+
+
+console.log("*********************");
+console.log(Date.now());
+console.log("in Seconds : ", Date.now()/1000);
+console.log("But we don't need decimal so we apply a function that is 'Math.floor()' .");
+console.log("In Seconds without decimal : ",Math.floor(Date.now()/1000));
+
