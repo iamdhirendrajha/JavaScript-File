@@ -132,3 +132,11 @@ console.log(`The Month is ${myDate.getMonth()} and the time is ${myDate.getTime(
 console.log(`Because of indexing of January starts from 0 and , its end on December that is 11 . `)
 console.log(`When we add +1 on Day , Month then its indexing starts from 1 for January and ends on December that is 12 .`)
 console.log(`The Month is ${myDate.getMonth() + 1} and the time is ${myDate.getTime()}`); 
+
+
+console.log("*****************Something More**********************");
+
+console.log(myDate.toLocaleString('default', {
+    weekday: "long",
+    dayPeriod: "long"
+}))
