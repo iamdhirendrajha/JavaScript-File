@@ -53,7 +53,11 @@ console.log(myDate.getMinutes());   // Get minutes (0-59)
 console.log(myDate.getSeconds());   // Get seconds (0-59)
 console.log(myDate.getMilliseconds()); // Get milliseconds (0-999)  
 console.log(myDate.getTime());     // Get time in milliseconds since Jan 1, 1970
-console.log(myDate.getUTCDate());
+console.log(myDate.getUTCDay());   // Get UTC day of week (0-6) Sunday - Saturday
+
+
+console.log(myDate.setUTCHours(14));  // Sets UTC hours to 14 and logs the timestamp
+
 
 
 
@@ -63,8 +67,19 @@ console.log(myDate.getUTCDate());
 // Various ways to create date objects
 let date1 = new Date('2023-06-15');
 console.log(date1.toDateString()); // Specific date from string
+console.log(date1.toLocaleString()); // Specific date from string
+console.log(date1.toLocaleDateString());
+console.log(date1.toLocaleTimeString()); 
+console.log(date1.toString());
 
-let date2 = new Date(2023, 5, 15); // Month is 0-indexed (0 = January, 5 = June)
+console.log("*****************************************");
+
+let date2 = new Date(2023, 5, 15 , 5 , 3); // Month is 0-indexed (0 = January, 5 = June)
 console.log(date2.toDateString()); // Specific date from components
+console.log(date2.toLocaleString());
+console.log(date2.toLocaleDateString());
+console.log(date2.toLocaleTimeString()); 
+console.log(date2.toString());
+
 
 
