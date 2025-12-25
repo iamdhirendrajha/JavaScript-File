@@ -107,14 +107,14 @@ console.log("*****************TIME**********************");
 
 
 let myTimeStamp = Date.now()
-console.log(myTimeStamp);     // in mili-second
+console.log("In Milli-Seconds : ",myTimeStamp);     // in milli-second
 console.log(typeof myTimeStamp);
 
-console.log(date4.getTime());
-console.log(date3.getTime());
-console.log(date2.getTime());
-console.log(date1.getTime());
-console.log(myDate.getTime());
+console.log("In Milli-Seconds : ",date4.getTime());
+console.log("In Milli-Seconds : ",date3.getTime());
+console.log("In Milli-Seconds : ",date2.getTime());
+console.log("In Milli-Seconds : ",date1.getTime());
+console.log("In Milli-Seconds : ",myDate.getTime());
 
 
 
