@@ -71,6 +71,8 @@ console.log(date1.toLocaleString()); // Specific date from string
 console.log(date1.toLocaleDateString());
 console.log(date1.toLocaleTimeString()); 
 console.log(date1.toString());
+console.log(typeof date1);
+console.log(typeof date1);
 
 console.log("*****************************************");
 
@@ -80,6 +82,15 @@ console.log(date2.toLocaleString());
 console.log(date2.toLocaleDateString());
 console.log(date2.toLocaleTimeString()); 
 console.log(date2.toString());
+console.log(typeof date2);
+
+
+console.log("*****************************************");
+
+let date3 = new Date("2025-12-25")
+console.log(typeof date3);
+console.log(date3.toLocaleString());
+console.log(date3.toLocaleDateString());
 
 
 
