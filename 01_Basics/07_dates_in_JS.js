@@ -93,4 +93,9 @@ console.log(date3.toLocaleString());
 console.log(date3.toLocaleDateString());
 
 
+console.log("*****************************************");
 
+let date4 = new Date("12-25-2025")
+console.log(typeof date4);
+console.log(date4.toLocaleString());
+console.log(date4.toLocaleDateString());
