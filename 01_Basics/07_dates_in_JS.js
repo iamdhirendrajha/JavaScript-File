@@ -104,3 +104,8 @@ console.log(date4.toLocaleDateString());
 //******************************TIME********************************
 
 console.log("*****************TIME**********************");
+
+
+let myTimeStamp = Date.now()
+console.log(myTimeStamp);     // in mili-second
+console.log(typeof myTimeStamp);
