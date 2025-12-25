@@ -1,5 +1,5 @@
 // Dates
-
+console.log("+++++++++++++++++++++DATES+++++++++++++++++++++++++");
 // Creating a date
 let now = new Date();
 console.log(now); // Current date and time  
@@ -99,3 +99,8 @@ let date4 = new Date("12-25-2025")
 console.log(typeof date4);
 console.log(date4.toLocaleString());
 console.log(date4.toLocaleDateString());
+
+
+//******************************TIME********************************
+
+console.log("*****************TIME**********************");
