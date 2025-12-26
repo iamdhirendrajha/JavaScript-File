@@ -18,6 +18,6 @@ console.log(myArr.toSorted());
 console.log("********myArr1***********");
 console.log(myArr1.toSorted());
 console.log(typeof myArr);
-console.log(typeof myArr1)
+console.log(typeof myArr1);
 
-console.log(myArr.pop());
+console.log(myArr.findLast())
