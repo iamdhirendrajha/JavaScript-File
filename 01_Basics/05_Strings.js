@@ -226,6 +226,7 @@ Output
 'GfG' is a learning portal
 "GfG" is a learning portal
 \GfG\ is a learning portal
+
 */
 
 const s1 = "\'GfG\' is a learning portal";
@@ -235,3 +236,10 @@ const s3 = "\\GfG\\ is a learning portal";
 console.log(s1);
 console.log(s2);
 console.log(s3);
+
+
+
+let p1 = 'Java'
+let p2 = 'Script'
+let res = p1 + p2
+​console.log("Concatenated String: "+ res);
