@@ -341,6 +341,93 @@ console.log(g);
 
 
 
+/*
+5. Find Substring of a String:--
+We can extract a portion of a string using the substring() method.
+
+let s1 = 'JavaScript Tutorial';
+let s2 = s1.substring(0, 10);
+​
+console.log(s2);
+*/
+
+let x1 = 'JavaScript Tutorial';
+let x2 = s1.substring(0, 10);
+​
+console.log(x2);
+
+// Output :  JavaScript
+
+
+
+/*
+6. Convert String to Uppercase and Lowercase :--
+Convert a string to uppercase and lowercase using toUpperCase() and toLowerCase() methods.
+
+let s = 'JavaScript';
+let uCase = s.toUpperCase();
+let lCase = s.toLowerCase();
+​
+console.log(uCase);
+console.log(lCase);
+*/
+
+let d = 'JavaScript';
+let uCase = s.toUpperCase();
+let lCase = s.toLowerCase();
+​
+console.log(uCase);
+console.log(lCase);
+
+
+// Output:
+// JAVASCRIPT
+// javascript
+
+
+
+/*
+7. String Search in JavaScript
+
+Find the first index of a substring within a string using indexOf() method.
+
+let s1 = 'def abc abc';
+let i = s1.indexOf('abc');
+​
+console.log(i);
+
+Output
+4
+*/
+
+let k1 = 'def abc abc';
+let i = s1.indexOf('abc');
+​
+console.log(i);      // 4
+
+
+
+
+/*
+8. String Replace in JavaScript :---
+
+Replace occurrences of a substring using the replace() method. By default, replace() only replaces the first occurrence. To replace all occurrences, use a regular expression with the g flag.
+
+
+let s1 = 'Learn HTML at GfG and HTML is useful';
+let s2 = s1.replace(/HTML/g, 'JavaScript');
+​
+console.log(s2);
+
+Output
+Learn JavaScript at GfG and JavaScript is useful
+*/
+
+let g1 = 'Learn HTML at GfG and HTML is useful';
+let g2 = g1.replace(/HTML/g, 'JavaScript');
+​
+console.log(g2);      // Learn JavaScript at GfG and JavaScript is useful
+
 
 // Multiline Strings (ES6 and later)
 // You can create a multiline string using backticks () with template literals. The backticks allows you to span the string across multiple lines, preserving the line breaks within the string.
