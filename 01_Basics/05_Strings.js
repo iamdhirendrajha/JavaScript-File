@@ -220,13 +220,10 @@ abcd
 
 
 /*
-Basic Operations on JavaScript Strings
-1. Finding the length of a String
+Basic Operations on JavaScript Strings ------>>
 
+1. Finding the length of a String: 
 You can find the length of a string using the length property.
-
-
-
 
 let s = 'JavaScript';
 let len = s.length;
@@ -238,6 +235,12 @@ String Length: 10
 
 
 */
+
+let s = 'JavaScript';
+let len = s.length;
+console.log("String Length: " + len);
+
+
 
 /*
 **************************************************
@@ -255,6 +258,13 @@ Concatenated String: JavaScript
 
 *********************************************
 */
+
+let p1 = 'Java';
+let p2 = 'Script;'
+let res = p1 + p2;
+​console.log("Concatenated String: "+ res);
+
+
 
 /*
 3. Escape Characters
@@ -279,6 +289,15 @@ Output
 \GfG\ is a learning portal
 
 */
+const s1 = "\'GfG\' is a learning portal";
+const s2 = "\"GfG\" is a learning portal";
+const s3 = "\\GfG\\ is a learning portal";
+
+console.log(s1);
+console.log(s2);
+console.log(s3);
+
+
 
 /*
 4. Breaking Long Strings:
@@ -319,29 +338,6 @@ const g = "'GeeksforGeeks' is a"
     + " learning portal";
 ​
 console.log(g);
-
-
-
-const s1 = "\'GfG\' is a learning portal";
-const s2 = "\"GfG\" is a learning portal";
-const s3 = "\\GfG\\ is a learning portal";
-
-console.log(s1);
-console.log(s2);
-console.log(s3);
-
-
-
-let p1 = 'Java';
-let p2 = 'Script;'
-let res = p1 + p2;
-​console.log("Concatenated String: "+ res);
-
-
-
-let s = 'JavaScript';
-let len = s.length;
-console.log("String Length: " + len);
 
 
 
