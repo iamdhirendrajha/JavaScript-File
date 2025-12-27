@@ -190,3 +190,48 @@ console.log(gameName.split(''));            // [ 'd', 'h', 'i', 'r', 'e', 'n', '
 // More String Methods
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#methods
 // https://www.w3schools.com/jsref/jsref_obj_string.asp
+
+/*
+2. String Concatenation
+You can combine two or more strings using + Operator.
+
+let s1 = 'Java';
+let s2 = 'Script';
+let res = s1 + s2;
+​
+console.log("Concatenated String: " + res);
+
+Output
+Concatenated String: JavaScript
+
+*********************************************
+
+3. Escape Characters
+We can use escape characters in string to add single quotes, dual quotes, and backslash.
+
+\' - Inserts a single quote
+\" - Inserts a double quote 
+\ - Inserts a backslash
+
+
+const s1 = "\'GfG\' is a learning portal";
+const s2 = "\"GfG\" is a learning portal";
+const s3 = "\\GfG\\ is a learning portal";
+
+console.log(s1);
+console.log(s2);
+console.log(s3);
+
+Output
+'GfG' is a learning portal
+"GfG" is a learning portal
+\GfG\ is a learning portal
+*/
+
+const s1 = "\'GfG\' is a learning portal";
+const s2 = "\"GfG\" is a learning portal";
+const s3 = "\\GfG\\ is a learning portal";
+
+console.log(s1);
+console.log(s2);
+console.log(s3);
