@@ -477,3 +477,4 @@ console.log(a);
 
 
 
+// If you want know , More About Strings then follow the Strings_Dovs.js 
