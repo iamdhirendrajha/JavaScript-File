@@ -192,6 +192,34 @@ console.log(gameName.split(''));            // [ 'd', 'h', 'i', 'r', 'e', 'n', '
 // https://www.w3schools.com/jsref/jsref_obj_string.asp
 
 /*
+A JavaScript String is a sequence of characters, typically used to represent text.
+
+In JavaScript, there is no character type (Similar to Python and different from C, C++ and Java), so a single character string is used when we need a character.
+Like Java and Python, strings in JavaScript are immutable.
+
+*/
+
+
+
+// Create using Literals - Recommended
+// We can either use a single quote or a double quote to create a string. We can use either of the two, but it is recommended to be consistent with your choice throughout your code.
+
+// Using Single Quote
+let t1 = 'abcd';
+console.log(t1);
+​
+// Using Double Quote
+let t2 = "abcd";
+console.log(t2);
+
+/*
+Output :
+abcd
+abcd
+*/
+
+
+/*
 Basic Operations on JavaScript Strings
 1. Finding the length of a String
 
@@ -308,6 +336,16 @@ console.log(l2);
 let h1 = 'gfg';
 let h2 = `You are learning from \${h1}`;
 ​
-console.log(h2);
+console.log(h2);           // You are learning from gfg
 
 
+
+
+// Create using Constructor
+// The new String() constructor creates a string object instead of a primitive string. It is generally not recommended because it can cause unexpected behavior in comparisons
+
+let a = new String('abcd');
+console.log(a);
+
+// Output
+// [String: 'abcd']
