@@ -192,6 +192,27 @@ console.log(gameName.split(''));            // [ 'd', 'h', 'i', 'r', 'e', 'n', '
 // https://www.w3schools.com/jsref/jsref_obj_string.asp
 
 /*
+Basic Operations on JavaScript Strings
+1. Finding the length of a String
+
+You can find the length of a string using the length property.
+
+
+
+
+let s = 'JavaScript';
+let len = s.length;
+​
+console.log("String Length: " + len);
+
+Output
+String Length: 10
+
+
+*/
+
+/*
+**************************************************
 2. String Concatenation
 You can combine two or more strings using + Operator.
 
@@ -205,7 +226,9 @@ Output
 Concatenated String: JavaScript
 
 *********************************************
+*/
 
+/*
 3. Escape Characters
 We can use escape characters in string to add single quotes, dual quotes, and backslash.
 
@@ -243,3 +266,9 @@ let p1 = 'Java'
 let p2 = 'Script'
 let res = p1 + p2
 ​console.log("Concatenated String: "+ res);
+
+
+
+let s = 'JavaScript';
+let len = s.length;
+console.log("String Length: " + len);
