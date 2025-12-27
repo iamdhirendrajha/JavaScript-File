@@ -22,3 +22,4 @@ console.log(typeof myArr1)
 
 console.log(myArr.pop());
 console.log(myArr1.pop());
+
