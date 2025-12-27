@@ -287,3 +287,27 @@ let q = `
 console.log(q);
 console.log(typeof q);
 
+
+
+
+// Empty String
+// You can create an empty string by assigning either single or double quotes with no characters in between.
+
+let l1 = '';
+let l2 = "";
+​
+console.log(l1);
+console.log(l2);
+
+
+
+
+// Template Literals (String Interpolation)
+// You can create strings using Template Literals. Template literals allow you to embed expressions within backticks (`) for dynamic string creation, making it more readable and versatile.
+
+let h1 = 'gfg';
+let h2 = `You are learning from \${h1}`;
+​
+console.log(h2);
+
+
