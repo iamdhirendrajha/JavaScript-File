@@ -236,6 +236,131 @@ let g2 = g1.replace(/HTML/g, 'JavaScript');
 console.log(g2);      // Learn JavaScript at GfG and JavaScript is useful
 
 
+
+/**
+ * 9. Trimming Whitespace from String :--
+Remove leading and trailing whitespaces using trim() method.
+
+let s1 = '    Learn JavaScript       ';
+let s2 = s1.trim();
+​
+console.log(s2);
+
+Output
+Learn JavaScript 
+ * 
+ */
+
+let sd1 = '    Learn JavaScript       ';
+let sd2 = sd1.trim();
+​
+console.log(sd2);
+
+
+
+/*
+10. Access Characters from String :--
+Access individual characters in a string using bracket notation and charAt() method.
+
+
+let s1 = 'Learn JavaScript';
+let s2 = s1[6];
+console.log(s2);
+​
+s2 = s1.charAt(6);
+console.log(s2);
+
+Output:-
+J
+J
+*/
+
+let sd11 = 'Learn JavaScript';
+let sd12 = sd1[6];
+console.log(sd12);
+​
+s2 = s1.charAt(6);
+console.log(s2);
+
+
+
+/*
+
+11. String Comparison in JavaScript:--
+There are some inbuilt methods that can be used to compare strings such as the equality operator and another like localeCompare() method.
+
+
+let s1 = "Ajay"
+let s2 = new String("Ajay");
+​
+console.log(s1 == s2);  // true (type coercion)
+console.log(s1 === s2); // false (strict comparison)
+console.log(s1.localeCompare(s2)); // 0 (means they are equal lexicographically)
+
+Output
+true
+false
+0
+
+
+Note: The equality operator (==) may return true when comparing a string object with a primitive string due to type coercion. However, === (strict equality) returns false because objects and primitives are different types. The localeCompare() method compares strings lexicographically.
+
+*/
+let sd21 = "Ajay"
+let sd22 = new String("Ajay");
+​
+console.log(sd21 == sd22);  // true (type coercion)
+console.log(sd21 === sd22); // false (strict comparison)
+console.log(sd21.localeCompare(sd22)); // 0 (means they are equal lexicographically)
+
+
+
+/*
+12. Passing JavaScript String as Objects :--
+We can create a JavaScript string using the new keyword.
+
+
+const str = new String("GeeksforGeeks");
+​
+console.log(str);
+
+Output
+[String: 'GeeksforGeeks']
+
+*/
+
+const str = new String("GeeksforGeeks");
+​
+console.log(str);
+
+
+
+/*
+Are the strings created by the new keyword is same as normal strings?
+No, the string created by the new keyword is an object and is not the same as normal strings.
+
+
+const str1 = new String("GeeksforGeeks");
+const str2 = "GeeksforGeeks";
+​
+console.log(str1 == str2);
+console.log(str1 === str2);
+
+Output
+true
+false
+*/
+
+const str1 = new String("GeeksforGeeks");
+const str2 = "GeeksforGeeks";
+​
+console.log(str1 == str2);         //true
+console.log(str1 === str2);       //false
+
+
+console.log("**************************************************");
+
+
 // Multiline Strings (ES6 and later)
 // You can create a multiline string using backticks () with template literals. The backticks allows you to span the string across multiple lines, preserving the line breaks within the string.
 
@@ -281,6 +406,3 @@ console.log(a);
 
 // Output
 // [String: 'abcd']
-
-
-
