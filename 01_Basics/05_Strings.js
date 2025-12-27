@@ -280,6 +280,48 @@ Output
 
 */
 
+/*
+4. Breaking Long Strings:
+Using a backslash (\) to break a long string is not recommended, as it is not supported in strict mode. Instead, use template literals or string concatenation.
+
+
+const s = "'GeeksforGeeks' is \
+a learning portal";
+​
+console.log(s);
+
+
+Output :
+'GeeksforGeeks' is a learning portal
+
+*************************************************
+
+Note: This method might not be supported on all browsers. A better way to break a string is by using the string addition.
+
+const s = "'GeeksforGeeks' is a"
+    + " learning portal";
+​
+console.log(s);
+
+Output
+'GeeksforGeeks' is a learning portal
+
+*/
+
+const f = "'GeeksforGeeks' is \
+a learning portal";
+
+console.log(f);
+
+// OR
+
+const g = "'GeeksforGeeks' is a"
+    + " learning portal";
+​
+console.log(g);
+
+
+
 const s1 = "\'GfG\' is a learning portal";
 const s2 = "\"GfG\" is a learning portal";
 const s3 = "\\GfG\\ is a learning portal";
@@ -349,3 +391,6 @@ console.log(a);
 
 // Output
 // [String: 'abcd']
+
+
+
