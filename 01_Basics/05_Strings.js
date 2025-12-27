@@ -262,9 +262,9 @@ console.log(s3);
 
 
 
-let p1 = 'Java'
-let p2 = 'Script'
-let res = p1 + p2
+let p1 = 'Java';
+let p2 = 'Script;'
+let res = p1 + p2;
 ​console.log("Concatenated String: "+ res);
 
 
@@ -272,3 +272,18 @@ let res = p1 + p2
 let s = 'JavaScript';
 let len = s.length;
 console.log("String Length: " + len);
+
+
+
+
+// Multiline Strings (ES6 and later)
+// You can create a multiline string using backticks () with template literals. The backticks allows you to span the string across multiple lines, preserving the line breaks within the string.
+
+let q = `
+    This is a
+    multiline
+    string`;
+
+console.log(q);
+console.log(typeof q);
+
