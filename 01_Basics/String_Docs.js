@@ -236,7 +236,6 @@ let g2 = g1.replace(/HTML/g, 'JavaScript');
 console.log(g2);      // Learn JavaScript at GfG and JavaScript is useful
 
 
-
 /**
  * 9. Trimming Whitespace from String :--
 Remove leading and trailing whitespaces using trim() method.
@@ -359,6 +358,7 @@ console.log(str1 === str2);       //false
 
 
 console.log("**************************************************");
+
 
 
 // Multiline Strings (ES6 and later)
