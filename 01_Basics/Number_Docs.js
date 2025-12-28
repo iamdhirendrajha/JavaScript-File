@@ -129,3 +129,158 @@ Output
 3.3
 
 
+
+2. Octal Number
+If the number starts with 0 and the following digits are smaller than 8. It will be parsed as an Octal Number. 
+
+let x = 0562;
+console.log(x);
+
+Output
+370
+
+
+
+3. Binary Numbers
+They start with 0b or 0B followed by 0's and 1's. 
+
+let x = 0b11; 
+let y = 0B0111;
+​
+console.log(x);
+console.log(y);
+
+Output
+3
+7
+
+
+
+4. Hexadecimal Numbers
+They start with 0x or 0X followed by any digit belonging (0123456789ABCDEF) 
+
+let x = 0xfff;
+console.log(x);
+
+Output
+4095
+
+
+
+
+Number Coercion in JavaScript
+In JavaScript, coercion refers to the automatic or implicit conversion of values from one data type to another. When different types of operators are applied to values, JavaScript performs type coercion to ensure that the operation can proceed. Let’s explore some common examples of coercion:
+
+
+1. Undefined to NaN
+When you perform an operation involving undefined, JavaScript returns NaN (Not-a-Number).
+
+
+const res = undefined + 10;
+console.log(res); // NaN
+
+Output
+NaN
+
+
+
+
+2. Null to 0
+The value null is coerced to 0 when used in arithmetic operations.
+
+const total = null + 5;
+console.log(total); // 5
+
+Output :
+5
+
+
+
+3. Boolean to Number
+Boolean values (true and false) are converted to numbers: 1 for true and 0 for false.
+
+
+
+
+const n1 = true + 10;
+const n2 = false + 10;
+​
+console.log(n1);
+console.log(n2);
+
+Output
+11
+10
+
+
+
+
+4. String to Number
+When performing arithmetic operations, JavaScript converts strings to numbers. If the string cannot be parsed as a valid number, it returns NaN.
+
+
+const s1 = '42';
+const s2 = 'hello';
+​
+const strToNum1 = Number(s1);
+const strToNum2 = Number(s2);
+​
+console.log(strToNum1);
+console.log(strToNum2);
+
+
+Output
+42
+NaN
+
+
+5. BigInts and Symbols
+Attempting to coerce Symbol values to numbers results in a TypeError.
+
+const symbol = Symbol('mySymbol');
+​
+const symToNum = Number(symbol); // TypeError
+console.log(symToNum);
+Output:
+
+TypeError: Cannot convert a Symbol value to a number
+
+
+
+Integer conversion
+Some operations such as those which work with an array, string indexes, or date/time expect integers. After performing the coercion if the number is greater than 0 it is returned as the same and if the number NaN or -0, it is returned as 0. The result is always an integer.
+
+Fixed-width number Conversion
+In Javascript, there are some functions that deal with the binary encoding of integers such as bitwise operators and typedArray objects. The bitwise operators always convert the operands to 32-bit integers.
+
+JavaScript Number Methods
+Now, we will use Number methods such as toString(), toExponential(), toPrecision(), isInteger(), and toLocaleString() method. Let's see the examples of these Number methods.
+
+
+let x = 21
+console.log(x.toString());
+console.log(x.toExponential());
+console.log(x.toPrecision(4));
+console.log(Number.isInteger(x));
+console.log(x.toLocaleString("bn-BD"));
+
+
+Output:
+21
+2.1e+1
+21.00
+true
+২১
+
+
+
+Some Facts About Numbers in JavaScript
+String Concatenation with Numbers: When you add a string and a number in JavaScript, the result will be a string concatenation.
+Javascript numbers which are primarily primitive values can also be defined as objects using a new keyword.
+Constants preceded by 0x are interpreted as hexadecimal in JavaScript.   
+Javascript numbers are of base 10 by default, but we can use the toString() method to get output in the required base from base 2 to base 36.
+Apart from regular numbers, Javascript has BigInt numbers which are integers of arbitrary length.
+We have a complete list of Javascript Number Objects methods, to check those please go through this Javascript Number Complete Reference article.
+
+
+
