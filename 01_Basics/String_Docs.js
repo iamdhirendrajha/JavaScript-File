@@ -207,6 +207,8 @@ Output
 4
 */
 
+
+
 let k1 = 'def abc abc';
 let i = s1.indexOf('abc');
 ​
