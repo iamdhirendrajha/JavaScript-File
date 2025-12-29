@@ -86,3 +86,20 @@ Hangup (SIGHUP)
 /home/guest/sandbox/Solution.js:5
 console.log(y, z); // ReferenceError
             ^
+
+
+
+4. var can be redeclared in the same scope, but let and const cannot be
+var x = 10;
+var x = 20; // Allowed
+
+let y = 30;
+let y = 40; // SyntaxError
+
+const z = 50;
+const z = 60; // SyntaxError
+
+
+Output:
+
+SyntaxError: Identifier 'y' has already been declared
