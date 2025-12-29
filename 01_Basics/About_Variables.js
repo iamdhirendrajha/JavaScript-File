@@ -1,5 +1,6 @@
 // JavaScript Variables
 /*
+
 Variables in JavaScript can be declared using var, let, or const. JavaScript is dynamically typed, so variable types are determined at runtime without explicit type definitions.
 
 // Old style
@@ -15,17 +16,20 @@ console.log(a);
 console.log(b);
 console.log(c);
 
-
 Output: 
 10
 20
 30
 
 
+
+
+
 Declaring Variables in JavaScript : 
 *     Before ES6 (2015): Variables were declared only with var, which is function-scoped and global-scoped, causing issues like hoisting and global pollution.
 *     ES6 Introduction: let and const were introduced to provide safer alternatives for declaring variables.
 *     Scope: let and const are block-scoped (limited to { } block) or global-scoped, reducing errors compared to var.
+
 
 
 
@@ -38,6 +42,7 @@ console.log(a);
 console.log(b);
 
 
+
 2. let keyword
 let is a keyword in JavaScript used to declare variables and it is Block-scoped and not hoisted to the top, suitable for mutable variables
 
@@ -45,6 +50,18 @@ let a = 12
 let b = "gfg";
 console.log(a);
 console.log(b);
+
+
+
+3. const keyword
+const is a keyword in JavaScript used to declare variables and it is Block-scoped, immutable bindings that can't be reassigned, though objects can still be mutated.
+
+const a = 5
+let b = "gfg";
+console.log(a);
+console.log(b);
+
+
 
 
 
@@ -65,9 +82,12 @@ let function = "gfg";   // Invalid
 
 
 
+
+
 Interesting Facts about Variables in JavaScript: -- 
 
 1. let or const are preferred over var: Initially, all the variables in JavaScript were written using the var keyword but in ES6 the keywords let and const were introduced. The main issue with var is, scoping.
+
 
 2. var is function scoped: Can be accessed outside block if within the function.
 if (true) {
@@ -81,6 +101,8 @@ console.log(x);
 
 Output:
 10
+
+
 
 3. let and const are block scoped : Cannot be accessed outside block even if inside the same function
 
@@ -114,6 +136,8 @@ const z = 60; // SyntaxError
 Output:
 
 SyntaxError: Identifier 'y' has already been declared
+
+
 
 
 5. We can change elements of array or objects even if declared as const.
