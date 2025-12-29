@@ -45,3 +45,8 @@ When naming variables in JavaScript, follow these rules
 *   Variable names are case-sensitive (e.g., age and Age are different variables).
 *   Reserved keywords (like function, class, return, etc.) cannot be used as variable names.
 
+let userName = "Suman";    // Valid
+let \$price = 100;         // Valid
+let _temp = 0;            // Valid
+let 123name = "Ajay";    // Invalid
+let function = "gfg";   // Invalid
