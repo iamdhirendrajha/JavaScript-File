@@ -103,3 +103,30 @@ const z = 60; // SyntaxError
 Output:
 
 SyntaxError: Identifier 'y' has already been declared
+
+
+5. We can change elements of array or objects even if declared as const.
+const ob = { a: 10 };
+ob.a = 20; // Allowed
+
+const arr = [10, 20, 30]
+arr[2] = 40
+console.log(arr)  // Allowed
+
+/* TypeError in the below lines
+obj = { b: 30 }; 
+arr = [50, 100] */
+
+Output:
+[ 10, 20, 40 ]
+
+
+
+/*
+
+Recommended Reads
+Variable Scope in JavaScript
+Variable Shadowing in JavaScript
+var vs let vs const
+
+*/
