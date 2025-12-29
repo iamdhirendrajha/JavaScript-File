@@ -31,3 +31,17 @@ Declaring Variables in JavaScript :
 
 1. var keyword
 var is a keyword in JavaScript used to declare variables and it is Function-scoped and hoisted, allowing redeclaration but can lead to unexpected bugs.
+
+const a = 5
+let b = "gfg";
+console.log(a);
+console.log(b);
+
+Rules for Naming Variables : --
+When naming variables in JavaScript, follow these rules
+
+*   Variable names must begin with a letter, underscore (_), or dollar sign ($).
+*   Subsequent characters can be letters, numbers, underscores, or dollar signs.
+*   Variable names are case-sensitive (e.g., age and Age are different variables).
+*   Reserved keywords (like function, class, return, etc.) cannot be used as variable names.
+
