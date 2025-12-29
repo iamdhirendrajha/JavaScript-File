@@ -37,6 +37,17 @@ let b = "gfg";
 console.log(a);
 console.log(b);
 
+
+2. let keyword
+let is a keyword in JavaScript used to declare variables and it is Block-scoped and not hoisted to the top, suitable for mutable variables
+
+let a = 12
+let b = "gfg";
+console.log(a);
+console.log(b);
+
+
+
 Rules for Naming Variables : --
 
 When naming variables in JavaScript, follow these rules
