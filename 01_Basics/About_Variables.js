@@ -38,6 +38,7 @@ console.log(a);
 console.log(b);
 
 Rules for Naming Variables : --
+
 When naming variables in JavaScript, follow these rules
 
 *   Variable names must begin with a letter, underscore (_), or dollar sign ($).
@@ -50,3 +51,11 @@ let \$price = 100;         // Valid
 let _temp = 0;            // Valid
 let 123name = "Ajay";    // Invalid
 let function = "gfg";   // Invalid
+
+
+
+Interesting Facts about Variables in JavaScript: -- 
+
+1. let or const are preferred over var: Initially, all the variables in JavaScript were written using the var keyword but in ES6 the keywords let and const were introduced. The main issue with var is, scoping.
+
+2. var is function scoped: Can be accessed outside block if within the function.
