@@ -289,6 +289,3 @@ Constants preceded by 0x are interpreted as hexadecimal in JavaScript.
 Javascript numbers are of base 10 by default, but we can use the toString() method to get output in the required base from base 2 to base 36.
 Apart from regular numbers, Javascript has BigInt numbers which are integers of arbitrary length.
 We have a complete list of Javascript Number Objects methods, to check those please go through this Javascript Number Complete Reference article.
-
-
-
