@@ -59,3 +59,30 @@ Interesting Facts about Variables in JavaScript: --
 1. let or const are preferred over var: Initially, all the variables in JavaScript were written using the var keyword but in ES6 the keywords let and const were introduced. The main issue with var is, scoping.
 
 2. var is function scoped: Can be accessed outside block if within the function.
+if (true) {
+  var x = 10; 
+}
+
+// Accessible outside the block
+// because we are in same function
+console.log(x);
+
+
+Output:
+10
+
+3. let and const are block scoped : Cannot be accessed outside block even if inside the same function
+
+if (true) {
+  let y = 20;
+  const z = 30;
+}
+console.log(y, z); // ReferenceError
+
+
+Output:
+
+Hangup (SIGHUP)
+/home/guest/sandbox/Solution.js:5
+console.log(y, z); // ReferenceError
+            ^
