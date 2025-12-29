@@ -63,6 +63,7 @@ console.log(Boolean(0));      // explicit conversion      // false
 
 
 const otherNum = new Number(23.8966)
+console.log(typeof otherNum);
 console.log(otherNum.toPrecision(3));   // explicit conversion using toPrecision() method   // '23.9'
 // ya method number ko specified significant digits tak round karta hai aur usse string format mai return karta hai.
 
