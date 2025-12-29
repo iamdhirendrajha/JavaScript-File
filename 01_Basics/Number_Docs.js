@@ -221,17 +221,25 @@ When performing arithmetic operations, JavaScript converts strings to numbers. I
 
 const s1 = '42';
 const s2 = 'hello';
+or
+const s2 = Numbers("hello");
 ​
 const strToNum1 = Number(s1);
 const strToNum2 = Number(s2);
 ​
 console.log(strToNum1);
 console.log(strToNum2);
-
+or
+console.log(s2);
 
 Output
 42
 NaN
+
+output will be the same:
+42
+NaN
+
 
 
 5. BigInts and Symbols
