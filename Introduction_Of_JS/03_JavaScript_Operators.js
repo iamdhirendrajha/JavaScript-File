@@ -6,6 +6,7 @@ JavaScript operators are symbols or keywords used to perform operations on value
 
 There are various operators supported by JavaScript:
 
+
 1. JavaScript Arithmetic Operators:-->
 Arithmetic Operators perform mathematical calculations like addition, subtraction, multiplication, etc.
 
@@ -15,7 +16,50 @@ const p = 4 * 2; // Multiplication
 const q = 8 / 2; // Division
 console.log(sum, diff, p, q);
 
-
 Output: 
 8 8 8 4
 
+
++ adds two numbers.
+- subtracts the second number from the first.
+* multiplies two numbers.
+/ divides the first number by the second.
+
+
+
+2. JavaScript Assignment Operators-->
+Assignment operators are used to assign values to variables. They can also perform operations like addition or multiplication while assigning the value.
+
+let n = 10;
+n += 5;
+n *= 2;
+console.log(n);
+
+Output: 
+30
+
+
+= assigns a value to a variable.
++= adds and assigns the result to the variable.
+*= multiplies and assigns the result to the variable.
+
+
+
+3. JavaScript Comparison Operators-->
+Comparison operators compare two values and return a boolean (true or false). They are useful for making decisions in conditional statements.
+
+console.log(10 > 5);
+console.log(10 === "10");
+
+Output: 
+true
+false
+
+
+> checks if the left value is greater than the right.
+=== checks for strict equality (both type and value).
+Other operators include <, <=, >=, and !==.
+
+
+
+*/
