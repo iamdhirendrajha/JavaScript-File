@@ -182,6 +182,31 @@ Use n suffix to denote BigInt literals.
 11. JavaScript String Operators:-->
 JavaScript String Operators include concatenation (+) and concatenation assignment (+=), used to join strings or combine strings with other data types.
 
+const s = "Hello" + " " + "World";
+console.log(s);
 
+Output: 
+Hello World
+
+
++ concatenates strings.
++= appends to an existing string.
+
+
+
+12. JavaScript Chaining Operator (?.):-->
+The optional chaining operator allows safe access to deeply nested properties without throwing errors if the property doesn’t exist.
+
+const obj = { name: "Aman", address: { city: "Delhi" } };
+console.log(obj.address?.city);
+console.log(obj.contact?.phone);
+
+Output:
+Delhi
+undefined
+
+
+?. safely accesses a property or method.
+Returns undefined if the property doesn’t exist.
 
 */
