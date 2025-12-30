@@ -62,4 +62,69 @@ Other operators include <, <=, >=, and !==.
 
 
 
+4. JavaScript Logical Operators:-->
+Logical operators are mainly used to perform the logical operations that determine the equality or difference between the values.
+
+const a = true, b = false;
+console.log(a && b); // Logical AND
+console.log(a || b); // Logical OR
+
+Output
+false
+true
+
+
+&& returns true if both operands are true.
+|| returns true if at least one operand is true.
+! negates the boolean value.
+
+
+
+5. JavaScript Bitwise Operators:-->
+Bitwise operators perform operations on binary representations of numbers.
+
+const res = 5 & 1; // Bitwise AND
+console.log(res);
+
+Output
+1
+
+
+& performs a bitwise AND.
+| performs a bitwise OR.
+^ performs a bitwise XOR.
+~ performs a bitwise NOT.
+
+
+
+6. JavaScript Ternary Operator:-->
+The ternary operator is a shorthand for conditional statements. It takes three operands.
+
+const age = 18;
+const status = age >= 18 ? "Adult" : "Minor";
+console.log(status);
+
+Output:
+Adult
+
+condition ? expression1 : expression2 evaluates expression1 if the condition is true, otherwise evaluates expression2.
+
+
+
+7. JavaScript Comma Operator:-->
+Comma Operator (,) mainly evaluates its operands from left to right sequentially and returns the value of the rightmost operand. 
+
+let n1, n2
+const res = (n1 = 1, n2 = 2, n1 + n2);
+console.log(res);
+
+Output:
+3
+
+
+Each expression is evaluated from left to right.
+The final result of the expression is the rightmost value.
+
+
+
 */
