@@ -127,4 +127,45 @@ The final result of the expression is the rightmost value.
 
 
 
+8. JavaScript Unary Operators:--->
+Unary operators operate on a single operand (e.g., increment, decrement).
+
+let x = 5;
+console.log(++x); // Pre-increment
+console.log(x--); // Post-decrement (Output: 6, then x becomes 5)
+
+Output:
+6
+6
+
+
+++ increments the value by 1.
+-- decrements the value by 1.
+typeof returns the type of a variable.
+
+
+
+9. JavaScript Relational Operators:--->
+JavaScript Relational operators are used to compare its operands and determine the relationship between them. They return a Boolean value (true or false) based on the comparison result.
+
+const obj = { length: 10 };
+console.log("length" in obj);
+console.log([] instanceof Array);
+
+Output:
+true
+true
+
+
+in checks if a property exists in an object.
+instanceof checks if an object is an instance of a constructor.
+
+
+
+10. JavaScript BigInt Operators:--->
+BigInt operators allow calculations with numbers beyond the safe integer range.
+
+const big1 = 123456789012345678901234567890n;
+const big2 = 987654321098765432109876543210n;
+console.log(big1 + big2);
 */
