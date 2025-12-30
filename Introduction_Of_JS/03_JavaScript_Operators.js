@@ -168,4 +168,20 @@ BigInt operators allow calculations with numbers beyond the safe integer range.
 const big1 = 123456789012345678901234567890n;
 const big2 = 987654321098765432109876543210n;
 console.log(big1 + big2);
+
+
+Output:
+1111111110111111111011111111100n
+
+
+Operations like addition, subtraction, and multiplication work with BigInt.
+Use n suffix to denote BigInt literals.
+
+
+
+11. JavaScript String Operators:-->
+JavaScript String Operators include concatenation (+) and concatenation assignment (+=), used to join strings or combine strings with other data types.
+
+
+
 */
