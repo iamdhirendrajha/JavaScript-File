@@ -176,3 +176,16 @@ console.log(parseFloat("3.14abc"));
 Output
 42
 3.14
+
+This will parse the number part of a string, ensuring a valid numeric conversion.
+
+
+
+Handle NaN Properly:-->
+
+Use isNaN() to check if a value is NaN instead of comparing it directly.
+
+f (isNaN(value)) {
+    console.log("Invalid number");
+}
+This ensures you're correctly detecting NaN and handling it appropriately.
