@@ -165,3 +165,14 @@ Use parseInt() and parseFloat() for Number Conversion:===>
 
 console.log(parseInt("42px")); 
 console.log(parseFloat("3.14abc"));
+
+Use parseInt() and parseFloat() for Number Conversion
+
+
+
+console.log(parseInt("42px")); 
+console.log(parseFloat("3.14abc"));
+
+Output
+42
+3.14
