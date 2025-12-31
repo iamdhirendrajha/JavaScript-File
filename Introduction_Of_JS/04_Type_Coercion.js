@@ -159,3 +159,9 @@ if (value !== null && value !== undefined) {
 
 This ensures that only non-null and defined values are considered valid.
 
+
+
+Use parseInt() and parseFloat() for Number Conversion:===>
+
+console.log(parseInt("42px")); 
+console.log(parseFloat("3.14abc"));
