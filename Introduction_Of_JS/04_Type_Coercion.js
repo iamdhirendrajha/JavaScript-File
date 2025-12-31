@@ -188,4 +188,5 @@ Use isNaN() to check if a value is NaN instead of comparing it directly.
 f (isNaN(value)) {
     console.log("Invalid number");
 }
+    
 This ensures you're correctly detecting NaN and handling it appropriately.
