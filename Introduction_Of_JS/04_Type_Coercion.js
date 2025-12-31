@@ -124,3 +124,24 @@ false
 true
 In this example, NaN is not equal to itself, so the isNaN() function is the preferred way to check for NaN.
 
+
+Best Practices to Avoid Type Coercion Issues:+++>
+
+
+Use === Instead of ==
+When we use strict equality, instead of the comparison operator, it prevents unnecessary types of coercion.
+
+console.log(5 === "5");
+
+Output
+false
+=== ensures no implicit type conversion occurs and both values must be of the same type.
+
+Use Explicit Conversion:--->
+Explicit conversion converts the value manually due to which there are fewer chances of errors in the code.
+
+console.log(Number("123"));
+
+Output:
+123
+This ensures that you're working with the correct type, reducing the chance of errors during operations.
