@@ -26,3 +26,36 @@ Concatenates it with "10".
 
 
 
+How Type Coercion Works?
+In JavaScript, type coercion mainly occurs in the three ways:
+
+
+String Coercion:-->
+It occurs when the string is combined with the non-string using (+). JavaScript converts numbers and booleans into strings before concatenation.
+
+
+console.log("5" + 2); 
+console.log("5" + true);
+
+Output:
+"52"
+"5true"
+
+The number 2 is coerced to a string and then concatenated with the string "5", resulting in "52".
+The boolean true is coerced into the string "true", and the two strings are concatenated.
+
+
+
+Number Coercion:-->
+In the number coercion, JavaScript converts the string into a number before operating.
+
+console.log("5" - 2); 
+console.log("5" * 2); 
+console.log("10" / "2");
+
+Output:
+3
+10
+5
+
+The string is coerced into a number before performing the arithmetic operation.
