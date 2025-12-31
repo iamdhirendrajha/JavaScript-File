@@ -77,3 +77,23 @@ true
 
 
 Non-empty strings are coerced to true, while 0 is coerced to false.
+
+
+
+
+Common Issues of Type Coercion:--->
+
+
+Comparing Different Data Types:==>
+
+    
+Comparison Operator(= =), allows coercion due to which the unexpected conversions occur. To avoid this, we should use the strict equality(= = =) operator.
+
+console.log(0 == "0"); 
+console.log(0 == false); 
+console.log(" " + 0 == 0);
+
+Output:
+true
+true
+true
