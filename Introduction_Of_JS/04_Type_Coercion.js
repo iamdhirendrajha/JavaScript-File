@@ -114,3 +114,13 @@ false
 
 
 NaN Comparisons:--->
+NaN is not equal to itself, so checking with isNaN() is the best way to detect it.
+
+console.log(NaN == NaN); 
+console.log(isNaN(NaN));
+
+Output:
+false
+true
+In this example, NaN is not equal to itself, so the isNaN() function is the preferred way to check for NaN.
+
