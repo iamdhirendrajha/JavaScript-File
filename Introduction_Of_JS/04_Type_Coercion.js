@@ -59,3 +59,21 @@ Output:
 5
 
 The string is coerced into a number before performing the arithmetic operation.
+
+
+
+
+Boolean Coercion:-->
+JavaScript treats the true value as '1' and the false value as '0'.
+
+console.log(Boolean("hello")); 
+console.log(Boolean(0)); 
+console.log(Boolean([]));
+
+Output
+true
+false
+true
+
+
+Non-empty strings are coerced to true, while 0 is coerced to false.
