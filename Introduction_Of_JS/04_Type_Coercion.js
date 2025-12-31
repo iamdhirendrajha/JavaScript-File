@@ -145,3 +145,17 @@ console.log(Number("123"));
 Output:
 123
 This ensures that you're working with the correct type, reducing the chance of errors during operations.
+
+
+
+Avoid False Value Confusion:===>
+
+
+Always check for null, undefined, or empty strings explicitly.
+
+if (value !== null && value !== undefined) {
+    console.log("Value exists");
+}
+
+This ensures that only non-null and defined values are considered valid.
+
