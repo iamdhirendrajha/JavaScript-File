@@ -83,10 +83,8 @@ Non-empty strings are coerced to true, while 0 is coerced to false.
 
 Common Issues of Type Coercion:--->
 
-
 Comparing Different Data Types:==>
 
-    
 Comparison Operator(= =), allows coercion due to which the unexpected conversions occur. To avoid this, we should use the strict equality(= = =) operator.
 
 console.log(0 == "0"); 
@@ -97,3 +95,22 @@ Output:
 true
 true
 true
+
+
+
+Operations on null and undefined:-->
+Null and undefined behave unexpectedly.
+
+console.log(null == undefined); 
+console.log(null === undefined); 
+console.log(null + 1);
+
+Output:
+true
+false
+1
+
+
+
+
+NaN Comparisons:--->
