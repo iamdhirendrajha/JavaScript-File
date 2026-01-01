@@ -52,3 +52,43 @@ else
 Output:-
 i is less than 15
 
+
+
+JavaScript nested-if statement:---->
+JavaScript lets you put an if statement inside another if statement. This is called a nested if, where one if or else is inside another.
+
+Syntax:
+
+if (condition1) 
+{
+   // Executes when condition1 is true
+   if (condition2) 
+   {
+      // Executes when condition2 is true
+   }
+}
+
+
+Now let's understand this with the help of example:-
+
+// JavaScript program to illustrate nested-if statement
+let i = 10;
+
+if (i == 10) {  // First if statement
+    if (i < 15) {
+        console.log("i is smaller than 15");
+        // Nested - if statement
+        // Will only be executed if statement above
+        // it is true
+        if (i < 12)
+            console.log("i is smaller than 12 too");
+        else
+            console.log("i is greater than 15");
+    }
+}
+
+
+
+Output:--
+i is smaller than 15
+i is smaller than 12 too
