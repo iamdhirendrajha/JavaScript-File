@@ -92,3 +92,34 @@ if (i == 10) {  // First if statement
 Output:--
 i is smaller than 15
 i is smaller than 12 too
+
+
+JavaScript if-else-if statement:--->
+The if-else-if ladder is used to check multiple conditions in sequence. Once a true condition is found, its block executes, and the rest are skipped.
+
+Syntax
+
+if (condition)
+    statement;
+else if (condition)
+    statement;
+.
+.
+else
+    statement;
+
+
+Now let's understand this with the help of example
+
+// JavaScript program to illustrate nested-if statement
+let i = 20;
+if (i == 10)
+    console.log("i is 10");
+else if (i == 15)
+    console.log("i is 15");
+else if (i == 20)
+    console.log("i is 20");
+else
+    console.log("i is not present");
+
+
