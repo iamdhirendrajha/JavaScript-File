@@ -16,11 +16,39 @@ Now let's understand this with the help of an example:
 // JavaScript program to illustrate If statement
 
 let age = 19;
-
 if (age > 18)
 console.log("Congratulations, You are eligible to drive");
 
 Output:
 Congratulations, You are eligible to drive
 
+
+JavaScript if-else statement:--->
+The if-else statement allows you to execute one block of code if the condition is true and another block if the condition is false. It's a way to handle two possible outcomes based on a condition.
+
+Syntax:=
+if (condition)
+{
+    // Executes this block if
+    // condition is true
+}
+else
+{
+    // Executes this block if
+    // condition is false
+}
+
+Now let's understand this with the help of example:-->
+
+// JavaScript program to illustrate If-else statement
+let i = 10;
+
+if (i < 15)
+    console.log("i is less than 15");
+else
+    console.log("I am Not in if");
+
+
+Output:-
+i is less than 15
 
