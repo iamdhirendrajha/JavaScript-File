@@ -23,6 +23,9 @@ Output:
 Congratulations, You are eligible to drive
 
 
+
+
+
 JavaScript if-else statement:--->
 The if-else statement allows you to execute one block of code if the condition is true and another block if the condition is false. It's a way to handle two possible outcomes based on a condition.
 
@@ -51,6 +54,8 @@ else
 
 Output:-
 i is less than 15
+
+
 
 
 
@@ -88,10 +93,11 @@ if (i == 10) {  // First if statement
 }
 
 
-
 Output:--
 i is smaller than 15
 i is smaller than 12 too
+
+
 
 
 JavaScript if-else-if statement:--->
@@ -109,7 +115,7 @@ else
     statement;
 
 
-Now let's understand this with the help of example
+Now let's understand this with the help of example:--
 
 // JavaScript program to illustrate nested-if statement
 let i = 20;
@@ -123,3 +129,7 @@ else
     console.log("i is not present");
 
 
+Output:==>
+i is 20
+
+*/
