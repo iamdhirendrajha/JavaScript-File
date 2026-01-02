@@ -212,3 +212,6 @@ Less flexible, limited to specific conditions.
 Can have fall-through if break is omitted.
 
 Has a default case to handle unmatched values.
+
+
+*/
