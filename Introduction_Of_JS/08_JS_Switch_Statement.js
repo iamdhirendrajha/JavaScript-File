@@ -85,13 +85,11 @@ switch (day) {
 }
 
 
-
-
 Output:
 Start of the week!
 
 
-In this example
+In this example:
 
 Since day is set to 'Monday', the first case is matched, and "Start of the week!" is logged.
 The break statement then stops further execution, so the default case is not executed.
@@ -130,8 +128,6 @@ switch (day) {
 
 console.log(message);
 
-
-
 Output:
  Day not recognized.
 
@@ -144,7 +140,9 @@ In this example:
 
 
 
+
 Common Code Blocks :-->
+
 In some situations, multiple case labels in a switch statement require the same block of code to be executed. Instead of repeating the same code for each case, we can group them together.
 
 Here is the example of common code blocks
@@ -166,4 +164,24 @@ switch (grade) {
 }
 
 console.log(result);
+
+
+
+
+Output:
+Grade is good
+
+
+In this example
+
+Grade Assignment: The grade variable is defined as 'B' before the switch statement.
+Grouped Cases: The cases for 'A', 'B', and 'C' share the same message "Grade is good". This allows for cleaner code where we don’t need to repeat the same block of code for each case.
+Default Case: The default case handles invalid values (if no cases match), outputting "No grades achieved".
+Output: Since grade = 'B', the output will be "Grade is good".
+
+
+
+
+Difference Between if-Else and Switch Statement.==>
+
 
