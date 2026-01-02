@@ -69,7 +69,7 @@ In this example
 
 
 
-Break Keyword
+Break Keyword:-->
 The break keyword is used to terminate the execution of a loop or a switch statement. Once a break is encountered, the program will exit the current block, and no further code within the block will be executed.
 
 Now let's understand this with the help of example:
@@ -83,5 +83,17 @@ switch (day) {
     default:
         console.log("Invalid day.");
 }
+
+
+
+
+Output:
+Start of the week!
+
+
+In this example
+
+Since day is set to 'Monday', the first case is matched, and "Start of the week!" is logged.
+The break statement then stops further execution, so the default case is not executed.
 
 
