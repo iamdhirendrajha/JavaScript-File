@@ -185,3 +185,30 @@ Output: Since grade = 'B', the output will be "Grade is good".
 Difference Between if-Else and Switch Statement.==>
 
 
+Here is a comparison of if-Else and Switch based on various features:
+
+if-else:
+
+Used for complex conditions and ranges.
+
+Slower performance with many conditions.
+
+More flexible for complex scenarios.
+
+No fall-through; moves to the next else.
+
+Uses else for the default condition.
+
+
+
+Switch:
+
+Used for exact matches of a single value.
+
+Faster performance with multiple values to check.
+
+Less flexible, limited to specific conditions.
+
+Can have fall-through if break is omitted.
+
+Has a default case to handle unmatched values.
