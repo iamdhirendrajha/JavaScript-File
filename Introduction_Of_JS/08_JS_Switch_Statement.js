@@ -129,3 +129,41 @@ switch (day) {
 }
 
 console.log(message);
+
+
+
+Output:
+ Day not recognized.
+
+
+In this example:
+
+*   Switch: It checks day but doesn’t match any cases.
+*   Fallback Action: The default case runs, setting message to "Day not recognized.".
+*   Position of Default: The default case is placed before 'Friday', but its position doesn't affect its behavior; it only runs when no other case matches.
+
+
+
+Common Code Blocks :-->
+In some situations, multiple case labels in a switch statement require the same block of code to be executed. Instead of repeating the same code for each case, we can group them together.
+
+Here is the example of common code blocks
+
+let grade = 'B'; 
+let result;
+
+switch (grade) {
+    case 'A':
+    case 'B':
+    case 'C':
+        result = "Grade is good"; 
+        break;
+    case 'D':
+        result = "Grade is Poor";
+        break;
+    default:
+        result = "No grades achieved";  
+}
+
+console.log(result);
+
