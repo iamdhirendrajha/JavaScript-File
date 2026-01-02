@@ -58,15 +58,30 @@ switch (day) {
 
 console.log(dayName);
 
-Output
-
-
+Output:
 Wednesday
 In this example
 
-Day is set to 3.
-The switch statement evaluates day.
-Since day is 3, the case 3 the block is executed, assigning "Wednesday" to dayName.
-The break statement ends the switch statement, preventing execution from continuing into other cases.
+*   Day is set to 3.
+*   The switch statement evaluates day.
+*   Since day is 3, the case 3 the block is executed, assigning "Wednesday" to dayName.
+*   The break statement ends the switch statement, preventing execution from continuing into other cases.
+
+
+
+Break Keyword
+The break keyword is used to terminate the execution of a loop or a switch statement. Once a break is encountered, the program will exit the current block, and no further code within the block will be executed.
+
+Now let's understand this with the help of example:
+
+let day = 'Monday';
+
+switch (day) {
+    case 'Monday':
+        console.log("Start of the week!");
+        break;
+    default:
+        console.log("Invalid day.");
+}
 
 
