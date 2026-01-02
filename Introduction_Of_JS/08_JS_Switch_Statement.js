@@ -97,3 +97,35 @@ Since day is set to 'Monday', the first case is matched, and "Start of the week!
 The break statement then stops further execution, so the default case is not executed.
 
 
+
+
+Default Keyword:-->
+
+The default keyword in a switch statement is used as a fallback option when none of the case labels match the evaluated value. It functions similarly to an else in an if-else chain, ensuring that a default action is executed when no specific conditions are met.
+
+Fallback Action: If no case matches, the code within the default block is executed, preventing unexpected behavior.
+Optional: The default case is optional and can be omitted if not needed.
+Position: The position of the default case in a switch statement doesn't affect its behavior. It only runs if no previous case matches, regardless of where it’s placed.
+
+
+Now let's understandnd this with the help of example:--
+
+let day = 'Holiday';
+let message;
+
+switch (day) {
+    case 'Monday':
+        message = "Start of the week!";
+        break;
+    case 'Tuesday':
+        message = "Second day of the week.";
+        break;
+    default:  
+        message = "Day not recognized.";  // Fallback action (if no match)
+        break;
+    case 'Friday':
+        message = "End of the workweek!";
+        break;
+}
+
+console.log(message);
