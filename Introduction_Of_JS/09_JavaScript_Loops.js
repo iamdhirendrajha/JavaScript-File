@@ -39,7 +39,6 @@ Loop termination:When the condition becomes false, the loop terminates marking t
 
 
 1.1 for in loop:-->
-
 The for-in loop iterates over the enumerable keys of an object.
 
 Example: The below JavaScript program for-in loop iterates over the keys of the person object and prints each key with its corresponding value.
@@ -57,4 +56,32 @@ name : Alice
 age : 22
 city : Delhi
 
+
+
+
+2. while Loop:-->
+The while loop executes as long as the condition is true. It can be thought of as a repeating if statement. 
+
+Example: The below JavaScript program while loop prints "Number:" followed by i repeatedly while i is less than 3, incrementing i by 1 each time.
+
+
+let i = 0;
+while (i < 3) {
+    console.log("Number:", i);
+    i++;
+}
+    
+
+Output:
+Number: 0
+Number: 1
+Number: 2
+
+
+
+Syntax:-->
+
+while (condition) {
+    // Code to execute
+}
 
