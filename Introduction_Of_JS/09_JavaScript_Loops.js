@@ -33,3 +33,25 @@ for (initialization; condition; increment/decrement)  {
 *   Statement execution: Once the condition is evaluated to true, the statements in the loop body are executed.
 *   Increment/ Decrement: It is used for updating the variable for next iteration.
 Loop termination:When the condition becomes false, the loop terminates marking the end of its life cycle.
+
+
+
+1.1 for in loop:-->
+
+The for-in loop iterates over the enumerable keys of an object.
+
+Example: The below JavaScript program for-in loop iterates over the keys of the person object and prints each key with its corresponding value.
+
+
+const person = { name: "Alice", age: 22, city: "Delhi" };
+
+for (let key in person) {
+  console.log(key, ":", person[key]);
+}
+
+
+
+Output:
+name : Alice
+age : 22
+city : Delhi
