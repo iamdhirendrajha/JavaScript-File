@@ -30,8 +30,11 @@ for (initialization; condition; increment/decrement)  {
 
 
 *   Initialization condition: Here, we initialize the variable in use. It marks the start of a for loop. An already declared variable can be used or a variable can be declared, local to loop only.
+
 *   Testing Condition: It is used for testing the exit condition for a loop. It must return a boolean value. It is also an Entry Control Loop as the condition is checked prior to the execution of the loop statements.
+
 *   Statement execution: Once the condition is evaluated to true, the statements in the loop body are executed.
+
 *   Increment/ Decrement: It is used for updating the variable for next iteration.
 Loop termination:When the condition becomes false, the loop terminates marking the end of its life cycle.
 
@@ -91,3 +94,31 @@ while (condition) {
 
 *   When the condition becomes false, the loop terminates which marks the end of its life cycle.
 3. do-while Loop
+
+
+
+
+3. do-while Loop:-->
+The do-while loop is similar to while loop except it executes the code block at least once before checking the condition.
+
+Example: The below JavaScript program do-while loop prints "Iteration:" followed by i, increments i by 1, and repeats the process while i is less than 3, ensuring the block runs at least once.
+
+let i = 0;
+do {
+    console.log("Iteration:", i);
+    i++;
+} while (i < 3);
+
+
+
+Output:
+Iteration: 0
+Iteration: 1
+Iteration: 2
+
+
+Syntax:--
+
+do {
+    // Code to execute
+} while (condition);
