@@ -5,6 +5,7 @@ Loops in JavaScript are used to reduce repetitive tasks by repeatedly executing 
 
 In JavaScript, there are three types of Loops :
 
+
 1. for Loop:-->
 The for loop repeats a block of code a specific number of times. It contains initialization, condition, and increment/decrement in one line.
 
@@ -20,8 +21,8 @@ Count: 2
 Count: 3
 
 
-Syntax:-->
 
+Syntax:-->
 
 for (initialization; condition; increment/decrement)  {    
      // Code to execute
@@ -33,6 +34,7 @@ for (initialization; condition; increment/decrement)  {
 *   Statement execution: Once the condition is evaluated to true, the statements in the loop body are executed.
 *   Increment/ Decrement: It is used for updating the variable for next iteration.
 Loop termination:When the condition becomes false, the loop terminates marking the end of its life cycle.
+
 
 
 
@@ -50,8 +52,9 @@ for (let key in person) {
 }
 
 
-
 Output:
 name : Alice
 age : 22
 city : Delhi
+
+
