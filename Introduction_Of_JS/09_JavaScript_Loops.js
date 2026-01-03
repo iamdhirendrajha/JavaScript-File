@@ -13,3 +13,23 @@ Example: The below JavaScript program for loop runs from i = 1 to i = 3, increme
 for (let i = 1; i <= 3; i++) {
     console.log("Count:", i);
 }
+
+Output
+Count: 1
+Count: 2
+Count: 3
+
+
+Syntax:-->
+
+
+for (initialization; condition; increment/decrement)  {    
+     // Code to execute
+}
+
+
+*   Initialization condition: Here, we initialize the variable in use. It marks the start of a for loop. An already declared variable can be used or a variable can be declared, local to loop only.
+*   Testing Condition: It is used for testing the exit condition for a loop. It must return a boolean value. It is also an Entry Control Loop as the condition is checked prior to the execution of the loop statements.
+*   Statement execution: Once the condition is evaluated to true, the statements in the loop body are executed.
+*   Increment/ Decrement: It is used for updating the variable for next iteration.
+Loop termination:When the condition becomes false, the loop terminates marking the end of its life cycle.
